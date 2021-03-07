@@ -1,0 +1,200 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.backdrop
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+    background-image: url(loadscreen.jpg);
+    background-size: 100% 100%;
+}
+
+.bottom
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#gradient
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
+    height: 25%;
+
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+@font-face {
+    font-family: 'BankGothic';
+    src: url('bankgothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pricedown bl';
+    src: url('pricedown bl.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.letni
+{
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 10%;
+    z-index: 5;
+
+    color: #fff;
+
+    font-family: "Segoe UI";
+}
+
+.letni p
+{
+    font-size: 22px;
+
+    margin-left: 3px;
+
+    margin-top: 0px;
+}
+
+.letni h2, .letni h3
+{
+    font-family: BankGothic;
+
+    text-transform: uppercase;
+
+    font-size: 50px;
+
+    margin: 0px;
+
+    display: inline-block;
+}
+
+.logo
+{
+    color: #fff;
+
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    right: 0%;
+}
+
+.top h1
+{
+    font-family: BankGothic;
+    font-size: 60px;
+
+    margin: 0px;
+}
+
+.top h2
+{
+    font-family: BankGothic;
+    font-size: 40px;
+
+    margin: 0px;
+
+    color: #ddd;
+}
+
+.loadbar
+{
+    width: 100%;
+    background-color: #ff0000;
+    height: 7px;
+
+    margin-left: 2px;
+    margin-right: 3px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    display: block;
+}
+
+.thingy
+{
+    width: 0%;
+    background-color: #414141;
+    height: 20px;
+
+    position: absolute;
+    left: 1px;
+}
+
+.menustart
+{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+	top: 236px;
+    z-index: 5;
+    color: #ef8cba;
+}
+
+.menuoptions
+{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+	top: 312px;
+    z-index: 5;
+    color: #ef8cba;
+}
+
+.menuquit
+{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+	top: 388px;
+    z-index: 5;
+    color: #ef8cba;
+}
+
+.start
+{
+float: right;
+position: absolute;
+top: 230px;
+left: 490px;
+animation: Test 1s infinite;
+}
+@keyframes Test{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.credit
+{
+    position: absolute;
+    left: 1420px;
+    right: 0%;
+    bottom: 0%;
+	top: 711px;
+    z-index: 5;
+    color: #ef8cba;
+}
